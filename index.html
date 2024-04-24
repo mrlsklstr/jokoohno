@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>K-dag 2024!</title>
     <style>
         /* Basisstijlen voor de hele pagina */
@@ -25,6 +25,8 @@
         p {
             font-size: 1em;
             max-width: 100%;
+ word-wrap: break-word; /* Voorkom dat lange woorden buiten het element vallen */
+            overflow-wrap: break-word; /* Zorg ervoor dat lange woorden worden afgebroken */
         }
  /* Media query voor kleinere schermen */
         @media only screen and (max-width: 600px) {
